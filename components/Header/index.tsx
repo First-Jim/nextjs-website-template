@@ -1,10 +1,15 @@
-import React from "react";
+import React from 'react'
 
 type Props = {
-  path: string;
-};
+  path: string
+}
 function Header({ path }: Props) {
-  return <div>Header</div>;
+  return (
+    <div>
+      Header
+      {/* <img src='images/test.png' /> */}
+    </div>
+  )
 }
 
-export default Header;
+export default Header
